@@ -8,12 +8,6 @@ import requests
 import BeautifulSoup
 import re
 
-
-
-#######################################################
-###   EXTRACT - SCRAPE DATA FROM FOOTBALL WEBSITE   ###
-#######################################################
-
 def scrape_data():
 
     website_data = requests.get('https://www.football-data.co.uk/englandm.php')
